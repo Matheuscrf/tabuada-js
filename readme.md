@@ -1,74 +1,87 @@
-🧮 Multiplication Table (tabuada-js)
+# 🧮 Multiplication Table (tabuada-js)
 
-A simple and interactive multiplication table generator built with HTML, CSS, and JavaScript. Enter a number and a desired range — the app dynamically displays the multiplication results.
+A simple and interactive **multiplication table generator** built with **HTML, CSS, and JavaScript**.
 
-This project was created for practicing JavaScript DOM manipulation and form handling.
+This project allows users to enter a number and a maximum multiplier to dynamically generate a multiplication table using DOM manipulation.
 
-📌 Features
+---
 
-🔹 Input fields for base number and multiplicator maximum
+## 🚀 Features
 
-🔹 Generates multiplication results dynamically
+- Generate multiplication tables dynamically
+- User input validation
+- Clean and simple interface
+- No page reload required
 
-🔹 Clean and responsive UI
+---
 
-🔹 Prevents invalid form submissions
+## 🚀 How It Works
 
-🚀 How It Works
+1. User enters a number and a maximum multiplicator.
 
-User enters a number and a maximum multiplicator.
+2. On form submission, JavaScript calculates the results.
 
-On form submission, JavaScript calculates the results.
+3. Each multiplication step is rendered as a DOM element below the form.
 
-Each multiplication step is rendered as a DOM element below the form.
+4. The page updates without reloading using DOM manipulation.
 
-The page updates without reloading using DOM manipulation.
+---
 
-🧩 Technologies Used
+## 🧩 Technologies Used
 
-HTML5 — Markup for layout and structure
+- HTML5 — Markup for layout and structure
 
-CSS3 — Basic styling
+- CSS3 — Basic styling
 
-JavaScript (ES6+) — Core logic & DOM manipulation
+- JavaScript (ES6+) — Core logic & DOM manipulation
 
-🛠️ Installation
+---
+
+## 🛠️ Installation
 
 To run this project locally:
 
-Clone the repository:
-
+1. Clone the repository:
+```bash
 git clone https://github.com/Matheuscrf/tabuada-js.git
+```
 
-
-Open the project folder:
-
+2. Open the project folder:
+```bash
 cd tabuada-js
+```
 
-
-Open index.html in your browser.
+3. Open index.html in your browser.
 
 That’s it! The project is static — no server required. 🚀
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
+```text
 tabuada-js
 ├── css/
-│   └── style.css       # Styles for layout & form
+│   └── style.css
 ├── js/
-│   └── script.js       # Multiplication logic & DOM rendering
-├── index.html          # Main interface
-└── README.md           # Project documentation
+│   └── script.js
+├── index.html
+└── README.md
+```
 
-💡 Example
+---
 
-If you enter 5 with 10 as the multiplicator, the output will be:
-
-5 x 1 = 5  
-5 x 2 = 10  
-...  
+## 💡 Example
+```text
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+...
 5 x 10 = 50
+```
 
-🎯 Purpose
+---
+
+## 🎯 Purpose
 
 This project is a hands-on exercise to reinforce core JavaScript fundamentals:
 
@@ -79,6 +92,8 @@ This project is a hands-on exercise to reinforce core JavaScript fundamentals:
 
 It’s perfect for beginners learning how to make interactive web pages.
 
-📌 License
+---
+
+## 📌 License
 
 This project is open-source and available to learn from, modify, or reuse.
